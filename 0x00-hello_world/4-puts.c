@@ -11,7 +11,7 @@
 int main(void)
 {
 	/*declarations*/
-	char sent[] = "\"Programming is like building a multilinual puzzle\n";
+	char sent[] = "\"Programming is like building a multilingual puzzle\n";
 
 	/*statement*/
 	puts(sent);
