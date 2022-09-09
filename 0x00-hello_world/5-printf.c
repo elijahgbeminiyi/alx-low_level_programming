@@ -11,6 +11,6 @@ int main(void)
 	char text[] = "with proper grammar, but the outcome is a piece of art";
 
 	/*statements*/
-	printf("%s,", text);
+	printf("%s,\n", text);
 	return (0);
 }
