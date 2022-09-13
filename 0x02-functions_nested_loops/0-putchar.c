@@ -8,13 +8,6 @@
 
 int main(void)
 {
-	char c[8] = "_putchar";
-	int num;
-
-	for (num = 0; num < 8; num++)
-	{
-		_putchar(c[num]);
-	}
-	_putchar('\n');
+	_putchar();
 	return (0);
 }
