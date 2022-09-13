@@ -7,7 +7,7 @@
  */
 int _islower(int c)
 {
-	if islower(c)
+	if islower(char(c))
 	{
 		return (write(1, &c, 0));
 	}
