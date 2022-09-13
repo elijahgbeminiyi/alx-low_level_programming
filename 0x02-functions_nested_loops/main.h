@@ -1,12 +1,7 @@
-int _putchar()
-{
-	char alpha[] = "_putchar";
-	int num;
+#include <unistd.h>
 
-	for (num = 0; num < 8; num++)
-	{
-		putchar(alpha[num]);
-	}
-	putchar('\n');
-	return (0);
+int _putchar(char c)
+{
+	/* I don't know what to type here */
+	return (write(1, &c, 1));
 }
