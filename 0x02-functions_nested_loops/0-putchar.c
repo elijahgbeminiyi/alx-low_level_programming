@@ -8,6 +8,11 @@
  * On error, -1 is returned, and errno is set appropriately.
  */
 
+int main(void)
+{
+	return(0);
+}
+
 int _putchar(char c)
 {
 	return (write(1, &c, 1));
