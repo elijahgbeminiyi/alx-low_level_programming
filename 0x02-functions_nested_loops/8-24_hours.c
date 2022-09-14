@@ -2,8 +2,8 @@
 
 /**
  * jack_bauer - description here
- * @i: integer
- * @j: interger 2
+ * i: saves interger 1
+ * j: saves integer 2
  *
  * Return: returns 0
  */
@@ -25,3 +25,4 @@ void jack_bauer(void)
 		}
 	}
 }
+
