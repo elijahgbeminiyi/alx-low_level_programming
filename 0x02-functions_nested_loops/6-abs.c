@@ -2,19 +2,19 @@
 
 /**
  * _abs - Decription o
- * @c: sets the number
+ * @n: sets the number
  *
  * Return: returns 0
  */
 
-int _abs(int c)
+int _abs(int n)
 {
-	if (c > 0)
+	if (n > 0)
 	{
 		return (0);
 	}
 	else
 	{
-		return (c * -1);
+		return (n * -1);
 	}
 }
