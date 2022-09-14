@@ -3,7 +3,7 @@
 
 /**
  * print_to_98 - adds two numbers
- * @n: takes the number 
+ * @n: takes the number
  *
  * Return: returns the addition
  */
