@@ -2,6 +2,7 @@
 
 /**
  * print_most_numbers - prints the numbers
+ * i: stores the integer
  *
  */
 

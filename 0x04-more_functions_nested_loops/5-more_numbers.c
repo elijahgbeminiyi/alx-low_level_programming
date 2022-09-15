@@ -2,6 +2,8 @@
 
 /**
  * more_numbers - prints the numbers
+ * i: stores first value
+ * j: stores second value
  *
  */
 
@@ -16,9 +18,9 @@ void more_numbers(void)
 		{
 			if (j > 9)
 			{
-				_putchar(i / 10 + '0');
+				_putchar(j / 10 + '0');
 			}
-			_putchar(i % 10 + '0');
+			_putchar(j % 10 + '0');
 		}
 		_putchar('\n');
 	}
