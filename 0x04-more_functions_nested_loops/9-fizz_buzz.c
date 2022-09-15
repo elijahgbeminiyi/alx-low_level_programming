@@ -1,7 +1,8 @@
 #include <stdio.h>
+
 /**
  * main - main function
- *
+ * i: stores file.
  *
  * Return: a number
  */
