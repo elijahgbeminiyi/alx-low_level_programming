@@ -1,8 +1,10 @@
-#include "holberton.h"
+#include "main.h"
+
 /**
  * print_most_numbers - prints the numbers
  *
  */
+
 void print_most_numbers(void)
 {
 	int i;
