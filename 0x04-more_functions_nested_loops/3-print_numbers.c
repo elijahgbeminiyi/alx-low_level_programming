@@ -2,6 +2,7 @@
 
 /**
  * print_numbers - prints the numbers
+ * i: stores the value
  *
  */
 
