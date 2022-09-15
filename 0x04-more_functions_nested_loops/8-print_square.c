@@ -1,8 +1,11 @@
-#include "holberton.h"
+#include "main.h"
+
 /**
  * print_square - prints square stuff
- *
  * @size: integer to set square size
+ * i: stores a value
+ * j: stores any value
+ *
  */
 void print_square(int size)
 {
