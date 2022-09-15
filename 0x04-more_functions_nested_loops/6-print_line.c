@@ -1,8 +1,10 @@
-#include "holberton.h"
+#include "main.h"
+
 /**
  * print_line - prints a line
+ * @n: it takes the number of times the line is printed
+ * i: stores the iteration count
  *
- * @n: integer to print stuff?
  */
 void print_line(int n)
 {

@@ -1,8 +1,10 @@
-#include "holberton.h"
+#include "main.h"
+
 /**
- * print_diagonal - prints diagonal stuff
- *
+ * print_diagonal - prints diagonal line
  * @n: integer to set diagonal
+ * i: stores iteration
+ * j: also stores iteration
  */
 void print_diagonal(int n)
 {
