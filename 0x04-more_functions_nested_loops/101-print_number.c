@@ -1,10 +1,12 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * print_number - prints number
- *
+ * print_number - prints number *
  * @n: integer to print to character
+ * i: stores a integer
+ * d: stores another integer
  */
+
 void print_number(int n)
 {
 	int i;
