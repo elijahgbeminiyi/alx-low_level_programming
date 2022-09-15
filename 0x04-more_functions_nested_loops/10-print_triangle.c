@@ -1,9 +1,11 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * print_triangle - prints triangle
- *
+ * print_triangle - prints triangle *
  * @size: size of triangle
+ * i: stores value
+ * j: stores second value
+ * k: stores third value
  */
 void print_triangle(int size)
 {
