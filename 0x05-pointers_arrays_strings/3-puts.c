@@ -10,9 +10,8 @@
 void _puts(char *str)
 {
 	int i;
-	int len = _strlen(str);
 
-	for (i = 0; i <= len; i++)
+	for (i = 0; i <= _strlen(str); i++)
 	{
 		if (str[i] == '\0')
 		{
