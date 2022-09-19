@@ -11,7 +11,7 @@ void _puts(char *str)
 {
 	int i;
 
-	for (i = 0; str[i] == true; i++)
+	for (i = 0; str[i] = true; i++)
 	{
 		if (str[i] == '\0')
 		{
