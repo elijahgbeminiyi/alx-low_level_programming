@@ -2,6 +2,7 @@
 
 /**
  * reset_to_98 - A useless function
+ * @n: this is a parameter
  *
  * Return: function is void
  */
