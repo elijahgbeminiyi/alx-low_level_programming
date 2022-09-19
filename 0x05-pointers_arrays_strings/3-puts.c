@@ -10,7 +10,7 @@
 void _puts(char *str)
 {
 	int i;
-	char str = *str
+	char str = *str;
 	int len = _strlen(str);
 
 	for (i = 0; i <= len; i++)
