@@ -19,7 +19,7 @@ void reverse_array(int *a, int n)
 	}
 	/* At this point, p holds the address of the last element */
 
-	for (k = 0; k < n / 2; k++)
+	for (k = 0; k < i / 2; k++)
 	{
 		aux = a[k];	/*Creating an aux array with the value of a[0],i.e aux=[1]*/
 		a[k] = *p;	/*then, the first elmt a[0] now holds the val of the lst elmt*/
