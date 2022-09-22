@@ -21,9 +21,9 @@ void reverse_array(int *a, int n)
 
 	for (k = 0; k < n / 2; k++)
 	{
-		aux = a[k];	/* Creating an auxiliary array with the value of a[0],i.e aux=[1] */
-		a[k] = *p;	/* ...then, the first element a[0] now holds the value of the last element */
-		*p = aux;	/* ...the value of the last element is now assigned to the aux array */
+		aux = a[k];	/*Creating an aux array with the value of a[0],i.e aux=[1]*/
+		a[k] = *p;	/*then, the first elmt a[0] now holds the val of the lst elmt*/
+		*p = aux;	/*the val of the lst elmt is now asgned to the aux arry*/
 		p--;		/*...the address is decremented, hence the swap is made*/
 	}
 }
