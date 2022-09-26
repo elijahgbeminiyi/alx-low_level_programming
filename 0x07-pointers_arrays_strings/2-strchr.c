@@ -4,7 +4,6 @@
 * _strchr - This function is a string character
 * @s: string param
 * @c: char param
-*
 * Return: returns a string
 */
 
@@ -24,5 +23,5 @@ char *_strchr(char *s, char c)
 			return (s);
 		}
 	}
-	return ('\0');
+	return (NULL);
 }
