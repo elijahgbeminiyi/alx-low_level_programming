@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
-* _memcpy - This function copies a memory address
+* _memcpy - this fuct copies a mem address
 * @dest: first param
 * @src: second param
-* @n: int param
-*
-* Return: returns a string
+* @n: Third param
+* Return: returs a string
 */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
@@ -15,7 +14,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 
 	for (a = 0; a < n; a++)
 	{
-		dest[a] = src[a];
+		*(dest + a) = *(src + a);
 	}
 	return (dest);
 }
