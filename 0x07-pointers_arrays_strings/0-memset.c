@@ -5,7 +5,6 @@
 * @s: string param
 * @b: character param
 * @n: integer param
-*
 * Return: Returns a string
 */
 
