@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
 * _strchr - This function is a character string
@@ -9,17 +10,5 @@
 
 char *_strchr(char *s, char c)
 {
-	while (*s)
-	{
-		if (c == *s)
-		{
-			return (s);
-		}
-		s++;
-	}
-	if (!c)
-	{
-		return(s);
-	}
-	return(NULL);
+	strchr(s, c)
 }
