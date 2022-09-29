@@ -15,6 +15,7 @@ int _strlen_recursion(char *s)
 	}
 	s++;	/* increment the index */
 	return (1 + _strlen_recursion(s));	/* returns the index value + 1 */
+}
 	/**
 	* CALL STACK
 	* for example if *s = "hi"
@@ -39,4 +40,3 @@ int _strlen_recursion(char *s)
 	* return (1 + 1 + 0) == return (2)
 	* therefore the length of the string is 2.
 	* yaaay!!!! We got it! Code Ends.
-}

@@ -19,6 +19,7 @@ int factorial(int n)
 		return (1);
 	}
 	return (n * factorial(n - 1));
+}
 	/**
 	* CALL STACK
 	* if n = 3
@@ -39,4 +40,4 @@ int factorial(int n)
 	* return (3 * 2 * 1), on the stack frame.
 	* we simple get 6 as the output.
 	*/
-}
+
