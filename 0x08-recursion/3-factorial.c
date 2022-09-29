@@ -21,7 +21,7 @@ int factorial(int n)
 	return (n * factorial(n - 1));
 }
 /**
-* CALL STACK
+* Description: CALL STACK
 * if n = 3
 * the first two if statements aren't satisfied,
 * so it returns (n * function(n - 1)), which is

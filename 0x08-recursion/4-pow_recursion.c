@@ -21,7 +21,7 @@ int _pow_recursion(int x, int y)
 	return (x * _pow_recursion(x, y - 1));
 }
 /**
-* CALL STACK
+* Description: CALL STACK
 * if x = 2, y = 3
 * on first intances, y doesn't satisfy any of the conditions
 * it will therefore return (x * function(x, (y - 1))

@@ -17,7 +17,7 @@ int _strlen_recursion(char *s)
 	return (1 + _strlen_recursion(s));	/* returns the index value + 1 */
 }
 /**
-* CALL STACK
+* Descrition: CALL STACK
 * for example if *s = "hi"
 * if doesn't satisfy the if statement,
 * thus it has one character which is at index 0
