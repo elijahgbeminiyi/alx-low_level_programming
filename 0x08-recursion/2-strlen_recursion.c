@@ -37,6 +37,7 @@ int _strlen_recursion(char *s)
 *
 * then moves to the stack below which is
 * return (1 + 1 + function(2)), which is now
-	* return (1 + 1 + 0) == return (2)
-	* therefore the length of the string is 2.
-	* yaaay!!!! We got it! Code Ends.
+* return (1 + 1 + 0) == return (2)
+* therefore the length of the string is 2.
+* yaaay!!!! We got it! Code Ends.
+*/
