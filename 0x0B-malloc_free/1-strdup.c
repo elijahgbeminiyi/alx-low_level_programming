@@ -2,9 +2,11 @@
 #include <stdlib.h>
 
 /**
+* _strdup - function to copy a given string
+* @str: string parameter
 *
+* Return: returns a string copy
 */
-
 char *_strdup(char *str)
 {
 	char *tmp;
@@ -17,35 +19,22 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-
 	/* First get the length of the string */
 	while (str[i])
 	{
-		/* While strp[i] returns a value, increment i */
 		i++;
 	}
-	/* At this point, i holds the length of the input string */
-
-	/* Allocating the memory size of the input string to the new string */
-	tmp = malloc(i * sizeof(char));
-
+	tmp = malloc(i * sizeof(char) + 1);
 	/* Declare condition to avoid errors */
 	if (tmp == NULL)
 	{
 		return (NULL);
 	}
-
 	while (j < i)
 	{
 		/* Copying the values of the input string into the temp string */
 		tmp[j] = str[j];
 		j++;
 	}
-	/**
-	* At this point, the tmp string would have all the values of the input string
-	* ...copied into it.
-	*/
-
-	/* Function returns the temporary strin created */
 	return (tmp);
 }
