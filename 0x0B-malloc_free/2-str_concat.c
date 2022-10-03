@@ -25,6 +25,6 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-	new[] = s1 + s2;
+	new = s1 + s2;
 	return (new);
 }
