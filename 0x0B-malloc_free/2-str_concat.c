@@ -34,7 +34,7 @@ char *str_concat(char *s1, char *s2)
 		count_2++;
 	}
 	res = count_1 + count_2;
-	tmp = malloc(res * sizeof(char));
+	tmp = malloc(res * sizeof(char) + 1);
 	if (tmp == NULL)
 	{
 		return (NULL);
@@ -50,5 +50,6 @@ char *str_concat(char *s1, char *s2)
 		i++;
 		j++;
 	}
+	free(tmp);
 	return (tmp);
 }
