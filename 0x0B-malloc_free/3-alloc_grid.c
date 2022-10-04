@@ -5,12 +5,12 @@
 * alloc_grid - function that returns 2D array
 * @width: width of array
 * @height: height of array
-* Reuturn: returns 2D array
+* Return: returns 2D array
 */
 
 int **alloc_grid(int width, int height)
 {
-	int w,h, size, **array;
+	int w, h, size, **array;
 
 	w = 0;
 	h = 0;
