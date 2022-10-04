@@ -11,14 +11,15 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *tmp;
-	int count_1, count_2, res, i;
+	int count_1, count_2, res, i, j;
 
 	count_1 = 0;
 	count_2 = 0;
 	i = 0;
+	j = 0;
 	if (s1 == NULL)
 		s1 = "";
-	else if (s2 == NULL)
+	if (s2 == NULL)
 		s2 = "";
 	while (s1[count_1])
 	{
@@ -40,8 +41,8 @@ char *str_concat(char *s1, char *s2)
 		}
 		if (i >= count_1)
 		{
-			tmp[i] = s2[count_2];
-			count_2++;
+			tmp[i] = s2[j];
+			j++;
 		}
 		i++;
 	}
