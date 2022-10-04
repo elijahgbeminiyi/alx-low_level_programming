@@ -38,13 +38,14 @@ char *str_concat(char *s1, char *s2)
 		if (i < count_1)
 		{
 			tmp[i] = s1[i];
+			i++;
 		}
 		if (i >= count_1)
 		{
 			tmp[i] = s2[j];
+			i++;
+			j++;
 		}
-		i++;
-		j++;
 	}
 	return (tmp);
 }
