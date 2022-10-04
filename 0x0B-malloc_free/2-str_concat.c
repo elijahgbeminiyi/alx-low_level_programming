@@ -40,8 +40,8 @@ char *str_concat(char *s1, char *s2)
 		}
 		if (i >= count_1)
 		{
-			tmp[i] = s2[j];
-			j++;
+			tmp[i] = s2[count_2];
+			count_2++;
 		}
 		i++;
 	}
