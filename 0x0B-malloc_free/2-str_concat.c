@@ -16,7 +16,6 @@ char *str_concat(char *s1, char *s2)
 	count_1 = 0;
 	count_2 = 0;
 	i = 0;
-	j = 0;
 	if (s1 == NULL)
 		s1 = "";
 	else if (s2 == NULL)
@@ -38,14 +37,13 @@ char *str_concat(char *s1, char *s2)
 		if (i < count_1)
 		{
 			tmp[i] = s1[i];
-			i++;
 		}
 		if (i >= count_1)
 		{
 			tmp[i] = s2[j];
-			i++;
 			j++;
 		}
+		i++;
 	}
 	return (tmp);
 }
