@@ -10,43 +10,34 @@
 
 char *argstostr(int ac, char **av)
 {
-	int i, j, a, b, c;
-	char *tmp;
+	char *str;
+	int arg, byte, index, size = ac;
 
-	i = 0;
-	j = 0;
 	if (ac == 0 || av == NULL)
-	{
 		return (NULL);
-	}
-	/* Getting the len of str and adding it to int */
-	while (i < ac)
+
+	for (arg = 0; arg < ac; arg++)
 	{
-		while (av[i][j])
-		{
-			ac++;
-			j++;
-		}
-		i++;
+		for (byte = 0; av[arg][byte]; byte++)
+			size++;
 	}
-	tmp = malloc(ac * sizeof(char) + 1);
-	if (tmp == NULL)
-	{
+
+	str = malloc(sizeof(char) * size + 1);
+
+	if (str == NULL)
 		return (NULL);
-	}
-	a = 0;
-	b = 0;
-	c = 0;
-	while (a < ac)
+
+	index = 0;
+
+	for (arg = 0; arg < ac; arg++)
 	{
-		while (av[a][b])
-		{
-			tmp[c] = av[a][b];
-			c++;
-			b++;
-		}
-		_putchar('\n');
-		a++;
+		for (byte = 0; av[arg][byte]; byte++)
+			str[index++] = av[arg][byte];
+
+		str[index++] = '\n';
 	}
-	return (tmp);
+
+	str[size] = '\0';
+
+	return (str);
 }
