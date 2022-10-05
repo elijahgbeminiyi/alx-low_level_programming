@@ -10,7 +10,7 @@
 
 char *argstostr(int ac, char **av)
 {
-	int i, j, k;
+	int i, j, k, a, b, c;
 	char *tmp;
 
 	i = 0;
@@ -35,18 +35,18 @@ char *argstostr(int ac, char **av)
 	{
 		return (NULL);
 	}
-	i = 0;
-	j = 0;
-	k = 0;
-	while (i < ac)
+	a = 0;
+	b = 0;
+	c = 0;
+	while (a < ac)
 	{
-		while (av[i][j])
+		while (av[a][b])
 		{
-			tmp[k] = av[i][j];
-			j++;
+			tmp[c] = av[a][b];
+			b++;
 		}
 		_putchar('\n');
-		i++;
+		a++;
 	}
 	return (tmp);
 }
