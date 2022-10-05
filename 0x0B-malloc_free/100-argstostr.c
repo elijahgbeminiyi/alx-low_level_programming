@@ -42,7 +42,7 @@ char *argstostr(int ac, char **av)
 		while (av[a][b])
 		{
 			tmp[c] = av[a][b];
-			c++
+			c++;
 			b++;
 		}
 		_putchar('\n');
