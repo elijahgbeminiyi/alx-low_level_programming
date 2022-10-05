@@ -35,6 +35,9 @@ char *argstostr(int ac, char **av)
 	{
 		return (NULL);
 	}
+	i = 0;
+	j = 0;
+	k = 0;
 	while (i < ac)
 	{
 		while (av[i][j])
