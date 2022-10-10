@@ -1,6 +1,6 @@
-#include <stdio.h>
 #ifndef __FILE__
 #define __FILE__
+#include <stdio.h>
 
 int main(void)
 {
