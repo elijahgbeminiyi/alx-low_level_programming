@@ -3,7 +3,9 @@
 
 /**
 * dog - a struct function
-* Return: I dont know what to return
+* @name: name of dog
+* @age: age of dog
+* @owner: owner of dog
 */
 
 struct dog
