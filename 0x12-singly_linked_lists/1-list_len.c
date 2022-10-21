@@ -2,7 +2,7 @@
 
 /**
 * list_len - function for node length
-* h: head parameter
+* @h: head parameter
 * Return: returns length
 */
 
