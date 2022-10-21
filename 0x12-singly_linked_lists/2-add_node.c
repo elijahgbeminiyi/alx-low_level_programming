@@ -3,7 +3,7 @@
 /**
 * add_node - function that add a node to the beginning of a list
 * @head: head parameter
-* str: character parameter
+* @str: character parameter
 * Return: returns a struct
 */
 
