@@ -2,7 +2,6 @@
 
 /**
 * add_nodeint_end -> function that adds a node at the end
-*	of a list
 * @head: head node
 * @n: int parameter
 * Return: returns a pointer
@@ -10,7 +9,8 @@
 
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
-	listint_t *new_node, *ptr;
+	listint_t *new_node
+	listint_t *ptr;
 
 	(void)ptr;
 	new_node = malloc(sizeof(listint_t));
@@ -19,7 +19,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 		return (NULL);
 
 	new_node->n = n;
-	new_node = NULL;
+	new_node->next = NULL;
 	ptr = *head;
 
 	if (*head == NULL)
